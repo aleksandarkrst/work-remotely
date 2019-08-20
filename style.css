@@ -1,0 +1,141 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.work {
+    font-size: 20px;
+}
+
+.nav-link {
+    color: grey;
+}
+
+.myButton {
+	padding: 5px 10px;
+    background-color: white;
+    border-width: 0px;
+    color: grey;
+}
+
+.myButton:hover {
+    text-decoration: none;
+	background-color: orange;
+    transition: 0.3s;
+    color: black;
+    cursor:pointer;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.main {
+    position: relative;
+    left: 5%;
+    width: 60%;
+    padding-top: 130px;
+}
+
+.main h1{
+    width: 60%;
+    font-size: 60px;
+}
+
+.main p {
+    width: 60%;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.title-image {
+    width: 65%;
+    position: absolute;
+    left: 110%;
+    bottom: 10px;
+}
+
+.form {
+	border-radius: 30px;
+	padding: 15px 50px;
+	background-color: white;
+	border-width: 1px;
+    color: grey;
+	box-shadow: 5px 10px 8px #888888;
+}
+
+.form:hover {
+    background-color: orange;
+    color: black;
+	transition: 0.3s;
+}
+.form:active {
+	position:relative;
+	top:1px;
+}
+
+.contact-us {
+    text-align: center;
+    padding: 15% 7%;
+}
+
+.foot {
+    padding: 2% 5%;
+    text-align: center;
+    background-color: orange;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /*Could be more or less, depending on screen size*/
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    text-align: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
